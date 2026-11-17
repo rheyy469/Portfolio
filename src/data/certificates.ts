@@ -16,6 +16,36 @@ export interface ICertificate {
 
 export const certificatesData: ICertificate[] = [
   {
+    slug: "cisco-networking-basics",
+    title: "Networking Basics",
+    issuer: "Cisco Networking Academy",
+    date: "2026",
+    credentialId: "855b571e-e7e2-436f-a2ca-e21dc7a0a2e2",
+    category: "NETWORK INFRASTRUCTURE",
+    image: "/assets/certificates/cisco-networking-basics.jpg",
+    verificationUrl: "https://www.netacad.com/",
+    description: {
+      id: "Sertifikat dari Cisco Networking Academy yang mencakup dasar-dasar jaringan komputer: model OSI dan TCP/IP, pengalamatan IPv4 dan IPv6, perangkat jaringan, serta konfigurasi dan troubleshooting jaringan sederhana.",
+      en: "Cisco Networking Academy certificate covering computer networking fundamentals: OSI and TCP/IP models, IPv4 and IPv6 addressing, network devices, and basic network configuration and troubleshooting.",
+    },
+    skillsCovered: ["OSI & TCP/IP Models", "IPv4 & IPv6 Addressing", "Network Devices", "Ethernet & Switching", "Basic Troubleshooting"],
+  },
+  {
+    slug: "cisco-introduction-to-cybersecurity",
+    title: "Introduction to Cybersecurity",
+    issuer: "Cisco Networking Academy",
+    date: "2026",
+    credentialId: "a6e974ba-c2d1-4b00-bd0f-76aede094419",
+    category: "CYBERSECURITY & DEFENSE",
+    image: "/assets/certificates/cisco-intro-cybersecurity.jpg",
+    verificationUrl: "https://www.netacad.com/",
+    description: {
+      id: "Sertifikat dari Cisco Networking Academy yang memperkenalkan konsep dasar keamanan siber: jenis ancaman dan serangan, perlindungan data dan privasi, keamanan perangkat, serta gambaran karier di bidang keamanan siber.",
+      en: "Cisco Networking Academy certificate introducing core cybersecurity concepts: threat and attack types, data and privacy protection, device security, and an overview of cybersecurity career paths.",
+    },
+    skillsCovered: ["Threat Landscape", "Attack Types", "Data Privacy", "Device Protection", "Security Best Practices"],
+  },
+  {
     slug: "comptia-security-plus",
     title: "CompTIA Security+ (SY0-701)",
     issuer: "CompTIA",
